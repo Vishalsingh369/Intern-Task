@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+.left{
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: rgb(105, 105, 232);
+    font-size: 0.9rem;
+}
+#element{
+    color: blueviolet;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.color{
+    color: blueviolet;
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    align-items: center;
+}
+.first-section > div{
+    width: 30%;
+}
+.left-section{
+   font-size: 3rem ;
+   /* margin: 30px 0; */
+}
+
+.left-section .buttons{
+    padding: 50px 0;
+}
+
+.right-section img{
+    width: 80%;
+   
+    border-radius: 10%;
+}
+
+.second-section{
+    max-width: 80vw;
+    margin: auto;
+}
+.second-section h1{
+    font-size: 1.5rem;
+}
+
+.gray{
+    color: gray;
+}
+
+.box{
+    background: white;
+    display: flex;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+} 
+
+.vertical{
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px; 
+}
+
+.btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #0e0e1a;
+    /* height: 233px; */
+}
+.footer-section{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer-section>div{
+    width: 223px;
+}
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+footer .text-center{
+    text-align: center;
+color: gray;
+padding: 12px 0;
+}
